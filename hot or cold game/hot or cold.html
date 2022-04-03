@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot or Cold</title>
+    <link rel="stylesheet" href="game style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="rulebar">
+        <div class="rules-cont">
+            <div class="rules-box">
+            <h3>What do I do?</h3>
+            <p class="title">This is a Hot or Cold Number Guessing Game The game goes like this:</p>
+            <ol class="rules">
+                <li class="no">Pick a <span class="underline">random secret number between</span> 1 to 100 and keep it hidden</li>
+                <li class="no">You need to <span class="underline">guess</span> until you can find the hidden secret number</li>
+                <li class="no">You will <span class="underline">get feedback</span> on how close ("hot") or fat ("cold") yout guess is.</li>
+            </ol>
+            <p class="foot">So,Are you ready?</p>
+            <button class="start">Got it!</button>
+        </div>
+        </div>
+    </div>
+<div class="gaming">
+        <div class="game-cont">
+            <h3 class="what">What ?</h3>
+            <h3 class="new">+New game</h3>
+            <div class="game">
+            <h3>HOT or COLD</h3>
+            <div class="game-box">
+                <h4 class="guessbox">Make your Guess!</h4>
+                <div class="input-col">
+                <input type="text" class="input" placeholder="Enter Your Guess">
+                <button class="guessbtn">Guess</button>
+            </div>
+                <h5>Guess Count : <span class="guess-count">0!</span></h5>
+                    <ul class="guess-num"></ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="game script.js"></script>
+</body>
+</html>
